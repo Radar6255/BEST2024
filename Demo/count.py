@@ -1,3 +1,12 @@
+# -*-Python-*-
+#   FILE:       count.py
+#   AUTHOR:     Riley Adams
+#   DATE:       July 26, 2024
+#   PURPOSE:    A program to count to the specified number
+#
+# Copyright 2024 University of Rochester. All rights reserved.
+#
+
 numberStr = input("Enter the number to count to: ")
 
 # Starting our count at 1

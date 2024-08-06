@@ -1,3 +1,13 @@
+# -*-Python-*-
+#   FILE:       fibonacci.py
+#   AUTHOR:     Riley Adams
+#   DATE:       July 26, 2024
+#   PURPOSE:    Demostrative program to calculate the fibonacci sequence
+#
+# Copyright 2024 University of Rochester. All rights reserved.
+#
+
+
 # Doing 10 iterations of the fibonacci sequence
 iter = 10
 
