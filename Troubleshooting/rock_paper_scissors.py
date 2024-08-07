@@ -42,7 +42,7 @@ elif r == 2:
 # -- Player input --
 # raw_input is a python function that allows you to prompt the user for an input
 # Whatever they enter as input becomes a string and gets assigned to the `player_choice` variable
-player_choice = raw_input("Ready? Rock Paper Scissors Shoot: ")
+player_choice = input("Ready? Rock Paper Scissors Shoot: ")
 
 # -- Check Player input
 # Rock Paper Scissors only works if both players pick one of the three options, but the user might not follow the rules!
@@ -52,7 +52,7 @@ player_choice = raw_input("Ready? Rock Paper Scissors Shoot: ")
 # What happens if the user inputs an invalid choice more than once?
 while player_choice != "Rock" and player_choice != "Paper" and player_choice != "Scissors":
     print("Oops! That's not a valid choice. Please pick Rock, Paper, or Scissors...")
-    player_choice = raw_input("Ready? Rock Paper Scissors Shoot: ")
+    player_choice = input("Ready? Rock Paper Scissors Shoot: ")
 #end of loop
 # Fun fact: The process of checking to make sure the user does what we expect, and fixing things when they go wrong,
 # is called **Error Handling**. Handling Errors gracefully is an essential part of writing good code.
