@@ -26,19 +26,19 @@ list1 = [ 5, 1, 3, 20, 0, 1, 30000 ]
 print("An 'int' is an integer (whole) number, which can be positive or negative. Here are two examples:")
 print(integer1)
 print(integer2)
-print # print an empty line for spacing the output
+print() # print an empty line for spacing the output
 print("A 'float' is any number, including decimal numbers. The name 'float' comes from 'floating point', which describes how a computer keeps track of the decimal point. Here's an example of a float:")
 print(float1)
-print
+print()
 print("A 'boolean' value is always either True or False. Here's an example:")
 print(boolean1)
-print
+print()
 print("A 'string' can be any bunch of characters. Strings are denoted by surrounding quotes. A string can even contain a value that looks like an int, boolean, or float, but if it's surrounded by quotes in your code, it's a string! Here are some examples:")
 print(string1)
 print(string2)
 print(string3)
 print(string4)
-print
+print()
 print("A 'list' is a collection of items of any data type. Each item in the list is called an 'element' of the list.  The elements are surrounded by [brackets] and separated by commas. You can mix and match anything you want in a list, but typically we make lists where all elements are of the same type. Here's an example:")
 print(list1)
 
