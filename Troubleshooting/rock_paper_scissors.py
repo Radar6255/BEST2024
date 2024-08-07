@@ -30,7 +30,7 @@ r = random.randint(0, 2)
 
 # -- Computer choice --
 # Once we have a random integer, we can use it to have the computer appear to pick their choice randomly.
-print("Welcome to Rock Paper Scissors! Challenge the computer to a game!")
+print("I am the Rock Paper Scissors bot! Let's play a game.")
 if r == 0:
     cpu_choice = "Rock"
 elif r == 1:
@@ -65,17 +65,24 @@ print("I choose " + cpu_choice)
 # -- Check who wins --
 # In order to check who wins, we need to compare the player's choice to the computer's choice.
 # We need to make sure we consider all possible outcomes.
+
 if player_choice == cpu_choice:
     print("Tie!")
 if player_choice == "Rock" and cpu_choice == "Paper":
-    print("Paper covers rock. I win!")
+    print("Scissors cut paper. I win!")
 elif player_choice == "Rock" and cpu_choice == "Scissors":
     print("Rock crushes scissors. You win!")
 elif player_choice == "Paper" and cpu_choice == "Rock":
     print("Paper covers rock. You win!")
 elif player_choice == "Paper" and cpu_choice == "Scissors":
-    print("Scissors cut paper. I win!")
+    print("Paper covers rock. I win!")
 elif player_choice == "Scissors" and cpu_choice == "Rock":
-    print("Rock crushes scissors. You win!")
+    print("Rock crushes scissors. I win!")
 elif player_choice == "Scissors" and cpu_choice == "Paper":
-    print("Scissors cut paper. I win!")
+    print("Scissors cut paper. You win!")
+
+# TROUBLESHOOTING
+# Try playing this game a few times and see if any games go in a way you didn't expect.
+# Did we handle each case correctly?
+# When there are lots of if/else statements in a row,
+# it's very easy to mix up one or two of them...
