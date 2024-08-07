@@ -10,7 +10,7 @@
 
 
 print("Welcome to String Reverser.")
-string_to_reverse = raw_input("Please enter any string: ")
+string_to_reverse = input("Please enter any string: ")
 
 # Let's use a variable called `output` to store the reversed string as we build it
 output = ""

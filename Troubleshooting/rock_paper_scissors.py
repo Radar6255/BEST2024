@@ -40,7 +40,7 @@ elif r == 2:
 
 
 # -- Player input --
-# raw_input is a python function that allows you to prompt the user for an input
+# input is a python function that allows you to prompt the user for an input
 # Whatever they enter as input becomes a string and gets assigned to the `player_choice` variable
 player_choice = input("Ready? Rock Paper Scissors Shoot: ")
 
